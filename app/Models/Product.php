@@ -13,6 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  *     @OA\Property(property="name", type="string", example="Laptop"),
  *     @OA\Property(property="description", type="string", example="Ordinateur performant"),
  *     @OA\Property(property="price", type="number", format="float", example=899.99),
+ *     @OA\Property(property="stock", type="integer", example=10),
  *     @OA\Property(property="created_at", type="string", format="date-time"),
  *     @OA\Property(property="updated_at", type="string", format="date-time")
  * )
